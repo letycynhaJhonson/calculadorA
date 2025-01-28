@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Celsius para Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openCalculator() {
+            window.open('calculadora.html', 'Calculadora', 'width=400,height=400');
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="title">
+                <h1>Conversão de Celsius para Fahrenheit</h1>
+            </div>
+            <p>Esta calculadora é projetada para converter temperaturas de Celsius (°C) para Fahrenheit (°F). Aqui está como ela funciona:</p>
+            <ul>
+                <li><strong>Entrada do Usuário:</strong> Você insere a temperatura em Celsius no campo de entrada fornecido.</li>
+                <li><strong>Clique no Botão:</strong> Após inserir o valor, você clica no botão "Converter".</li>
+                <li><strong>Cálculo:</strong> A calculadora pega o valor em Celsius e realiza a conversão para Fahrenheit utilizando a fórmula:</li>
+            </ul>
+            <p>𝐹 = (9/5 × 𝐶) + 32<br>Onde F é a temperatura em Fahrenheit e C é a temperatura em Celsius.</p>
+            <ul>
+                <li><strong>Exibição do Resultado:</strong> O resultado da conversão é exibido na tela, mostrando a temperatura correspondente em Fahrenheit.</li>
+            </ul>
+            <h2>Exemplo:</h2>
+            <p>Se você digitar 25°C, a calculadora fará os seguintes passos:</p>
+            <ul>
+                <li>Multiplicará 25 por 9, obtendo 225.</li>
+                <li>Dividirá 225 por 5, resultando em 45.</li>
+                <li>Adicionará 32 ao resultado, obtendo 77. Então, 25°C é equivalente a 77°F.</li>
+            </ul>
+            <button onclick="openCalculator()">Calculadora</button>
+            <br><br>
+        </div>
+    </main>
+</body>
+</html>
